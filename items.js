@@ -5,7 +5,7 @@ var firstItem = {
 
 var secondItem = {
   name: "milk",
-  price: 1.00
+  price: 1.50
 }
 
 var thirdItem = {
@@ -13,4 +13,9 @@ var thirdItem = {
   price: 2.00
 }
 
-module.exports = [firstItem, secondItem, thirdItem];
+var fourthItem = {
+  name: "lots of jelly",
+  price: 25.50
+}
+
+module.exports = [firstItem, secondItem, thirdItem, fourthItem];
