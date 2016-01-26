@@ -19,13 +19,13 @@ var basket = {
   } 
 
 }
-basket.addItem(items[0]);
-basket.addItem(items[0]);
-basket.addItem(items[1]);
-basket.addItem(items[2]);
-basket.addItem(items[3]);
-console.log(basket.contents);
-console.log(basket.totalBaseValue);
-basket.calculateTotalFinalValue();
-console.log(basket.totalFinalValue);
+// basket.addItem(items[0]);
+// basket.addItem(items[0]);
+// basket.addItem(items[1]);
+// basket.addItem(items[2]);
+// basket.addItem(items[3]);
+// console.log(basket.contents);
+// console.log(basket.totalBaseValue);
+// basket.calculateTotalFinalValue();
+// console.log(basket.totalFinalValue);
 module.exports = basket;
