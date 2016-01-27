@@ -5,12 +5,21 @@ var basket = {
   // totalReductionValue:0,
   totalFinalValue: 0,
   contents: [],
-  // bogofArray: [],
+  bogofArray: [],
   addItem: function(item, amount){
     this.contents.push(item);
     this.totalBaseValue += (item.price * amount);
     item.amount = amount;
   },
+
+  calculateBogofReduction: function(){
+    for(item in this.contents){
+      if(item.bogof === true){
+        this.bogofArray.push(item)
+      }
+    }
+  },
+
   calculateTotalFinalValue: function(){
     if(this.totalBaseValue <= 19.99){
       this.totalFinalValue = this.totalBaseValue;

@@ -19,5 +19,9 @@ describe("Shopping Basket", function(){
     var expectedValue = (basket.totalBaseValue * 0.9);
     assert.equal(expectedValue, basket.totalFinalValue);
   });
+  // 4. A basket with 2 or more items with a but one get one free discount should have it's final value changed appropriately
+  // it("A basket with 2 or more items with a but one get one free discount should have it's final value changed appropriately", function(){
+    // assert.equal(expectedValue, basket.totalFinalValue);
+  // });
 });
 
