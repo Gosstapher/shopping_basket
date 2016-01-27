@@ -14,7 +14,7 @@ describe("Shopping Basket", function(){
   });
   // 3. A basket with items with a combined value over 20.00 should have it's total value reduced by 10%
   it("A basket with items with a combined value over 20.00 should have it's total value reduced by 10%", function(){
-    basket.addItem(items[3]);
+    basket.addItem(items[3], 3);
     basket.calculateTotalFinalValue();
     var expectedValue = (basket.totalBaseValue * 0.9);
     assert.equal(expectedValue, basket.totalFinalValue);

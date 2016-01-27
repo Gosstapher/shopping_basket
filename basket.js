@@ -22,14 +22,14 @@ var basket = {
   } 
 
 }
-basket.addItem(items[0], 2);
-basket.addItem(items[1], 1);
-basket.addItem(items[2], 3);
-basket.addItem(items[3], 5);
+// basket.addItem(items[0], 2);
+// basket.addItem(items[1], 1);
+// basket.addItem(items[2], 3);
+// basket.addItem(items[3], 5);
 // basket.calculateBogofReduction();
-console.log(basket.contents);
+// console.log(basket.contents);
 // console.log(basket.bogofArray);
-console.log(basket.totalBaseValue);
-basket.calculateTotalFinalValue();
-console.log(basket.totalFinalValue);
+// console.log(basket.totalBaseValue);
+// basket.calculateTotalFinalValue();
+// console.log(basket.totalFinalValue);
 module.exports = basket;
